@@ -30,9 +30,7 @@ def main():
             cropped_img_dirname = dude_dirname + "/" + vowel
             os.makedirs(cropped_img_dirname, exist_ok=True)
             crop_image_and_write(imgs[imgname], i, cropped_img_dirname)
-
     return
-
 
 if __name__ == "__main__":
     main()
